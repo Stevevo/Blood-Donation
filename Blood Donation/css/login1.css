@@ -1,0 +1,48 @@
+body
+			{
+      -webkit-background-size: 100% ;           
+				margin: 0;
+				padding-top: 10vh;
+			}
+			input[type=text], input[type=password] 
+			{
+  				width: 90%;
+ 					padding:10px;
+  				margin: 6px;
+  				display: inline-block;
+  				background-color:lightgrey;
+  				border: none;
+  				box-sizing: border-box;
+			}
+			input[type=submit] 
+			{
+  				background-color: darkred;
+  				color: black;
+  				padding: 14px 20px;
+  				margin:10px 30px;
+  				border: none;
+  				border-radius: 10px;
+  				cursor: pointer;
+  				width: 50%;
+			}
+			.img {
+				border-radius:50%;
+			}
+			.emergency a{
+				text-decoration: none;
+				color: black;
+
+			}
+			.emergency a:hover{
+				text-decoration: underline;
+				color: red;
+			}
+			.forgot a{
+				text-decoration: none;
+				color: black;
+			}
+			.forgot a:hover {
+				text-decoration-color:black;
+				text-decoration:underline;
+				color: blue;
+			}
